@@ -1,0 +1,88 @@
+.admin-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 1.4rem;
+  padding: 1.7rem 1.7rem 2rem;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
+}
+
+.admin-card h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.admin-sub {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.25rem;
+}
+
+.admin-summary {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.admin-summary-item {
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.9rem;
+  background: #f1f5f9;
+}
+
+.admin-summary-label {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.admin-summary-value {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.admin-table-title {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 0.9rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.45rem 0.55rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.admin-table th {
+  font-weight: 600;
+  background: #f9fafb;
+}
+
+.admin-note {
+  font-size: 0.82rem;
+  color: #6b7280;
+  margin-top: 0.8rem;
+}
+
+.admin-login-link {
+  display: inline-block;
+  margin-top: 0.9rem;
+}
